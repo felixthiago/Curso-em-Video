@@ -1,0 +1,35 @@
+######## Nivel: Simples 
+######## Exercicio === Maioridade
+######## Descrição: "Recebe uma lista de idades dadas pelo usuario e verifica a maioridade de todas as pessoas"
+####### Módulo finalizado em Março de 2021
+from vars import *
+
+
+y = date.today().year
+i = []
+menor = 0
+maior = 0
+
+try:
+    inputs = int(input(f'{choice} Quantas idades você deseja coletar?'))
+except ValueError:
+    print(f"{err} Valor digitado não se parece com um número")
+
+for inp in range(inputs):
+    try:
+        user_input = int(input(f'{choice}Digite o ano de nascimento da {inp + 1}° pessoa > '))
+        i.append(user_input)
+    except ValueError:
+        print(f'{err} Valor digitado não se parece com um numero')
+
+for i, value in enumerate(i):
+    age = y - value
+    if age > 1:
+        if age < 18:
+            print(f'{err} A {i + 1}° Pessoa da lista é menor de idade! sem drinks!')
+            menor += 1
+        elif age >= 18:
+            print(f'{cer} A {i + 1}° Pessoa da lista é maior de idade! drinks liberados!')
+            maior += 1
+
+print(f'{cer}Ao total temos {Fore.RED}{menor}{Fore.RESET} menores de idade, e {Fore.GREEN}{maior}{Fore.RESET} maiores de idade!')
