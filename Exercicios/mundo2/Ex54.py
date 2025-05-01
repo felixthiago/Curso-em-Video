@@ -1,9 +1,11 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 ######## Nivel: Simples 
 ######## Exercicio === Maior e Menor sequencia
 ######## Descrição: "Recebe uma lista de idades dadas pelo usuario e verifica a maioridade de todas as pessoas"
-####### Módulo finalizado em Março de 2021
 
-from vars import *
+from Exercicios.utils import *
 try:
     inputs_qtd = int(input(f'{choice}Quantas pessoas deseja pesar? > '))
 except:

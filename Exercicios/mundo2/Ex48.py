@@ -1,8 +1,11 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 ######## Nivel: Simples 
-######## Exercicio === Soma de números impares
+######## Exercicio === Soma de números impares 
 ######## Descrição: "Programa simples onde é somado os números impares apartir de um valor enviado pelo usuário"
-####### Módulo finalizado em Março de 2021
-from vars import *
+
+from Exercicios.utils import *
 clear()
 
 

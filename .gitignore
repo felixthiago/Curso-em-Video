@@ -1,0 +1,4 @@
+# .gitignore
+__pycache__/
+__init__.py
+testing.py

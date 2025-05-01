@@ -1,5 +1,3 @@
-
-
 from colorama import * 
 init()
 
@@ -12,8 +10,10 @@ strTime = f"{Fore.LIGHTMAGENTA_EX}[{Fore.MAGENTA}*{Fore.LIGHTMAGENTA_EX}]{Fore.R
 cer = f'{Fore.LIGHTGREEN_EX}[{Fore.GREEN}+{Fore.LIGHTGREEN_EX}]{Fore.RESET} ~ '
 err = f'{Fore.LIGHTRED_EX}[{Fore.RED}-{Fore.LIGHTRED_EX}] ~ {Fore.RESET}'
 choice = f'[{Fore.YELLOW}.{Fore.RESET}] {dateTime} {Fore.YELLOW}P{Fore.BLUE}y{Fore.YELLOW}t{Fore.BLUE}h{Fore.YELLOW}o{Fore.BLUE}n{Fore.YELLOW}:{Fore.RESET} '
-
-
+barrinha = "=~=" * 10
+reset = Fore.RESET
+b = Fore.LIGHTBLUE_EX
+a = Fore.YELLOW
 
 import os
 

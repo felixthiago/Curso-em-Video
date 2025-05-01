@@ -1,10 +1,11 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 ######## Nivel: Simples 
 ######## Exercicio === Detector de Pallindromos
 ######## Descrição: "Detecta todos os pallindromos apartir do input do usuario"
-####### Módulo finalizado em Março de 2021
 
-
-from vars import *
+from Exercicios.utils import *
 
 try:
     sentence = str(input(f'{choice} Digite um pallindromo > '))

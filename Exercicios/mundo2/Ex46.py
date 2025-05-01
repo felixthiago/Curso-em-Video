@@ -1,10 +1,12 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 ######## Nivel: Simples 
 ######## Exercicio === Contagem Regressiva
 ######## Descrição: "Simples Programa onde o usuario manda um número para o programa e o mesmo faz uma contagem regressiva dele"
-####### Módulo finalizado em Março de 2021
 
 from time import sleep
-from vars import *
+from Exercicios.utils import *
 clear()
 
 try:

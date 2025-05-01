@@ -1,9 +1,11 @@
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
+
 ######## Nivel: Simples 
 ######## Exercicio === Tabuadas
 ######## Descrição: "Programa simples onde dado um número pelo usuario e feito a tabuada até ele"
-####### Módulo finalizado em Março de 2021
 
-from vars import *
+from Exercicios.utils import *
 
 
 try:
