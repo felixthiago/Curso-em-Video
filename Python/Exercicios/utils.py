@@ -14,6 +14,7 @@ barrinha = "=~=" * 10
 reset = Fore.RESET
 b = Fore.LIGHTBLUE_EX
 a = Fore.YELLOW
+la= Fore.LIGHTYELLOW_EX
 
 import os
 
