@@ -11,10 +11,13 @@ cer = f'{Fore.LIGHTGREEN_EX}[{Fore.GREEN}+{Fore.LIGHTGREEN_EX}]{Fore.RESET} ~ '
 err = f'{Fore.LIGHTRED_EX}[{Fore.RED}-{Fore.LIGHTRED_EX}] ~ {Fore.RESET}'
 choice = f'[{Fore.YELLOW}.{Fore.RESET}] {dateTime} {Fore.YELLOW}P{Fore.BLUE}y{Fore.YELLOW}t{Fore.BLUE}h{Fore.YELLOW}o{Fore.BLUE}n{Fore.YELLOW}:{Fore.RESET} '
 barrinha = "=~=" * 10
+
 reset = Fore.RESET
 b = Fore.LIGHTBLUE_EX
 a = Fore.YELLOW
-la= Fore.LIGHTYELLOW_EX
+g = Fore.GREEN
+la = Fore.LIGHTYELLOW_EX
+lg = Fore.LIGHTGREEN_EX
 
 import os
 

@@ -72,3 +72,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         print(f"\n\n{err}{Fore.RED}C^")
         quit()
+        
