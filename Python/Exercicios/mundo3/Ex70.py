@@ -4,11 +4,8 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.
 ######## Nivel: Simples 
 ######## Exercicio 75 === Análise de dados em uma Tupla
 ##### Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final, mostre:
-
 # A) Quantas vezes apareceu o valor 9.
-
 # B) Em que posição foi digitado o primeiro valor 3.
-
 # C) Quais foram os números pares
 from Exercicios.utils import *
 clear()
@@ -40,6 +37,6 @@ for c in range(len(t)):
         pares.append(t[c])
         tPares = tuple(pares)
     c += 1
-    
+
 if pares != []:
     print(f"{strTime}Existem alguns números pares nessa lista > {tPares}", end = "")
