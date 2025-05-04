@@ -1,2 +1,2 @@
-# cursoemvideo.com
-Cursos da plataforma curso em vídeo que me proporcionaram grande base para a programação.
+# Exercicios
+Exercicios de diversas plataformas ou linguagens para registrar minha evolução nas mesmas
