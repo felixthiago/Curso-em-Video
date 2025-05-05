@@ -39,11 +39,9 @@ def safe_str_input(prompt):
         return str(input(prompt))
     except ValueError:
         print(f"{err} O que foi digitado não se parece com uma string! ")
-        quit()
 
 def safe_float_input(prompt):
     try:
         return float(input(prompt))
     except ValueError:
         print(f"{err} O que foi digitado não se parece com um número")
-        quit()
