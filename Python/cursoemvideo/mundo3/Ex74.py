@@ -7,10 +7,8 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.
 
 from cursoemvideo.utils import *
 clear()
-try:
-    qtd = int(input(f"{choice} Digite a quantidade de números que deseja adicionar a lista > "))
-except ValueError:
-    print(f"{err} O que foi digitado não se parece com um número! ")
+
+qtd = safe_int_input(f"{choice} Digite a quantidade de números que deseja adicionar a lista > ")
 
 c = 0
 l = []
