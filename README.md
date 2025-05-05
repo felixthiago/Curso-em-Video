@@ -1,2 +1,2 @@
 # Exercicios
-Exercicios de diversas plataformas ou linguagens para registrar minha evolução nas mesmas
+treinamento de diversas linguagens para registrar minha evolução nas mesmas
